@@ -26,6 +26,10 @@
     <display-name>test01</display-name>
     <default-timezone>EST5EDT</default-timezone>
     
+    <form-engine>
+        <field-name-postfix>true</field-name-postfix>
+      </form-engine>
+  
     <published-repository>
         <enable-staging-environment>false</enable-staging-environment>
         <staging-environment>staging</staging-environment>
