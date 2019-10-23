@@ -77,6 +77,7 @@
 
 -->
 <permissions>
+  <site name="bla">
     <role name="author">
         <rule regex="/site/website/.*">
             <allowed-permissions>
@@ -198,4 +199,5 @@
             </allowed-permissions>
         </rule>
     </role>
+  </site>
 </permissions>
